@@ -1,0 +1,23 @@
+{
+  "name": "@launchapp/ai-model-registry",
+  "version": "0.1.0",
+  "description": "MCP server that aggregates AI model IDs, pricing, and capabilities across all major providers",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "hono": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest",
+    "@types/node": "latest"
+  }
+}
