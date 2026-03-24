@@ -16,7 +16,7 @@ mcp_servers:
 
 agents:
   default:
-    model: kimi-code/kimi-for-coding
+    model: kimi-for-coding
     tool: claude
 
   implementer:
@@ -26,7 +26,7 @@ agents:
       Write clean TypeScript. Use Hono and MCP SDK.
       Fetch from LiteLLM JSON, OpenRouter API, and Artificial Analysis.
       Commit with descriptive messages. Do not add yourself as author.
-    model: kimi-code/kimi-for-coding
+    model: kimi-for-coding
     tool: claude
     mcp_servers: ["ao", "context7"]
 
@@ -46,7 +46,7 @@ agents:
       Read VISION.md for the full feature set.
       Check existing tasks and queue before creating new work.
       Prioritize: 1) data source fetchers 2) MCP tools 3) caching 4) tests.
-    model: kimi-code/kimi-for-coding
+    model: kimi-for-coding
     tool: claude
     mcp_servers: ["ao"]
 
